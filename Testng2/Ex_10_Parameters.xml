@@ -1,0 +1,9 @@
+<suite name="suite">
+    <parameter name ="env" value ="QA"/>
+    <parameter name ="profile" value ="SIT"/>
+    <test name="test">
+        <classes>
+            <class name="org.example.Ex_10_Testngxml_Parameters"/>
+        </classes>
+    </test>
+</suite>

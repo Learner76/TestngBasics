@@ -1,0 +1,9 @@
+<suite name="suit">
+    <parameter name="key1" value="value1"></parameter>
+    <parameter name="key2" value="value2"></parameter>
+    <test name="test">
+        <classes>
+            <class name ="org.example.Ex_5_Parameterized_Testng"></class>
+        </classes>
+    </test>
+</suite>

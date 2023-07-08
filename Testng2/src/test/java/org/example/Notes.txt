@@ -1,0 +1,31 @@
+
+Regarding --------------------------Set up--------------------------------
+Created maven project, as Testng has multiple transitive jar dependancy. Difficult to add externally.
+Use Archetype:quickstart to get maven project structure and pom.xml.
+Added Testng Dependancy in POM.xml and maven reload.
+Add run configuration, Add Testng plugin and create configuration.
+Create basic class and run.
+
+Regarding ---------------------------<test> vs @Test-----------------------
+@Test denotes single test, where in <test> has bigger scope, it can group @test from
+multiple classes and run them together. so <test> is a big container.
+
+
+Regarding ---------------------------Reports-------------------------------
+TestNG Default Reports are focused on Test Execution, not Fixtures.
+Hence HTMLReporter or TestNGReport will not have any logs from Before and Methods. DO remember this.
+Reproter.log() also have same behaviour if used in @Before or @After method, will not log in final Report.
+So that reason we can use customer listner.
+
+Regarding -------------------------Testng.xml---------------------------------
+Suite->Test -->Classes ->Class order for basic xml.
+<suite name ="abc">
+    <test name ="def">
+        <classes>
+            <class name="org.example.Ex_1_Testng_basic">
+            </class>
+        </classes>
+    </test>
+</suite>
+
+--------Extent Reports-------------

@@ -1,0 +1,16 @@
+<suite name="suit">
+    <test name="test">
+        <groups>
+            <run>
+                <include name="group"/>
+<!--                <include name="group2"></include>-->
+<!--                <include name="smoke"></include>-->
+
+            </run>
+        </groups>-->
+        <classes>
+            <class name="org.example.Ex_7_Testng_Groups">
+            </class>
+        </classes>
+    </test>
+</suite>

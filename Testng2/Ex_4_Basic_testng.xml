@@ -1,0 +1,9 @@
+<suite name ="abc">
+    <test name ="def">
+        <classes>
+            <class name="org.example.Ex_4_TestngXML_basic">
+
+            </class>
+        </classes>
+    </test>
+</suite>
