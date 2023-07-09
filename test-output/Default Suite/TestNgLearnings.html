@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TestNgLearnings</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>37/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 08 18:28:44 IST 2023</td>
+<td>Started on:</td><td>Sun Jul 09 08:42:21 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (643 ms)</td>
+<tr><td>Total time:</td><td>241 seconds (241530 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.example.Ex_6_1_Custom_Testng_Example.Test2()'><b>Test2</b><br>Test class: org.example.Ex_6_1_Custom_Testng_Example</td>
-<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.example.Ex_6_1_Custom_Testng_Example.Test2(Ex_6_1_Custom_Testng_Example.java:29)
+<td title='org.example.Ex_10_Testngxml_Parameters.test()'><b>test</b><br>Test class: org.example.Ex_10_Testngxml_Parameters</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;env&apos; is required by @Test on method test but has not been marked @Optional or defined
+in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace764419760", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace764419760'><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at org.example.Ex_6_1_Custom_Testng_Example.Test2(Ex_6_1_Custom_Testng_Example.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace45023307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace45023307'><pre>org.testng.TestNGException: 
+Parameter &apos;env&apos; is required by @Test on method test but has not been marked @Optional or defined
+in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -120,23 +115,23 @@ function toggleAllBoxes() {
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 </pre></div></td>
 <td>0</td>
-<td>org.example.Ex_6_1_Custom_Testng_Example@394a2528</td></tr>
+<td>org.example.Ex_10_Testngxml_Parameters@63070bab</td></tr>
 <tr>
-<td title='org.example.Ex_4_TestngXML_basic.Test2()'><b>Test2</b><br>Test class: org.example.Ex_4_TestngXML_basic</td>
+<td title='org.example.Ex_1_Testng_basic.Test2()'><b>Test2</b><br>Test class: org.example.Ex_1_Testng_basic</td>
 <td><div><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.example.Ex_4_TestngXML_basic.Test2(Ex_4_TestngXML_basic.java:27)
+	at org.example.Ex_1_Testng_basic.Test2(Ex_1_Testng_basic.java:24)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776374725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1776374725'><pre>java.lang.AssertionError: expected [1] but found [0]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1912821769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1912821769'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:1240)
 	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at org.example.Ex_4_TestngXML_basic.Test2(Ex_4_TestngXML_basic.java:27)
+	at org.example.Ex_1_Testng_basic.Test2(Ex_1_Testng_basic.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -166,99 +161,7 @@ function toggleAllBoxes() {
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 </pre></div></td>
 <td>0</td>
-<td>org.example.Ex_4_TestngXML_basic@76ed1b7c</td></tr>
-<tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test2()'><b>Test2</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
-<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.example.Ex_2_Testng_Annotations.Test2(Ex_2_Testng_Annotations.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace252480153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace252480153'><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at org.example.Ex_2_Testng_Annotations.Test2(Ex_2_Testng_Annotations.java:41)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
-<tr>
-<td title='org.example.Ex_3_Testng_Listner.Test2()'><b>Test2</b><br>Test class: org.example.Ex_3_Testng_Listner</td>
-<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.example.Ex_3_Testng_Listner.Test2(Ex_3_Testng_Listner.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2097905212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2097905212'><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1240)
-	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at org.example.Ex_3_Testng_Listner.Test2(Ex_3_Testng_Listner.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</pre></div></td>
-<td>0</td>
-<td>org.example.Ex_3_Testng_Listner@68567e20</td></tr>
+<td>org.example.Ex_1_Testng_basic@574b560f</td></tr>
 <tr>
 <td title='org.example.Ex_5_Parameterized_Testng.test1()'><b>test1</b><br>Test class: org.example.Ex_5_Parameterized_Testng</td>
 <td><div><pre>org.testng.TestNGException: 
@@ -267,8 +170,8 @@ in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20224131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace20224131'><pre>org.testng.TestNGException: 
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1916575798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1916575798'><pre>org.testng.TestNGException: 
 Parameter &apos;key1&apos; is required by @Test on method test1 but has not been marked @Optional or defined
 in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -299,23 +202,23 @@ in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 </pre></div></td>
 <td>0</td>
-<td>org.example.Ex_5_Parameterized_Testng@11fc564b</td></tr>
+<td>org.example.Ex_5_Parameterized_Testng@dd0c991</td></tr>
 <tr>
-<td title='org.example.Ex_1_Testng_basic.Test2()'><b>Test2</b><br>Test class: org.example.Ex_1_Testng_basic</td>
+<td title='org.example.Ex_6_1_Custom_Testng_Example.Test2()'><b>Test2</b><br>Test class: org.example.Ex_6_1_Custom_Testng_Example</td>
 <td><div><pre>java.lang.AssertionError: expected [1] but found [0]
-	at org.example.Ex_1_Testng_basic.Test2(Ex_1_Testng_basic.java:24)
+	at org.example.Ex_6_1_Custom_Testng_Example.Test2(Ex_6_1_Custom_Testng_Example.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1809194904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1809194904'><pre>java.lang.AssertionError: expected [1] but found [0]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1292738535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1292738535'><pre>java.lang.AssertionError: expected [1] but found [0]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:1240)
 	at org.testng.Assert.assertEquals(Assert.java:1274)
-	at org.example.Ex_1_Testng_basic.Test2(Ex_1_Testng_basic.java:24)
+	at org.example.Ex_6_1_Custom_Testng_Example.Test2(Ex_6_1_Custom_Testng_Example.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -345,7 +248,145 @@ in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 </pre></div></td>
 <td>0</td>
-<td>org.example.Ex_1_Testng_basic@6913c1fb</td></tr>
+<td>org.example.Ex_6_1_Custom_Testng_Example@5f16132a</td></tr>
+<tr>
+<td title='org.example.Ex_3_Testng_Listner.Test2()'><b>Test2</b><br>Test class: org.example.Ex_3_Testng_Listner</td>
+<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.example.Ex_3_Testng_Listner.Test2(Ex_3_Testng_Listner.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2061543916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2061543916'><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at org.example.Ex_3_Testng_Listner.Test2(Ex_3_Testng_Listner.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>org.example.Ex_3_Testng_Listner@3cc1435c</td></tr>
+<tr>
+<td title='org.example.Ex_4_TestngXML_basic.Test2()'><b>Test2</b><br>Test class: org.example.Ex_4_TestngXML_basic</td>
+<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.example.Ex_4_TestngXML_basic.Test2(Ex_4_TestngXML_basic.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1062186835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1062186835'><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at org.example.Ex_4_TestngXML_basic.Test2(Ex_4_TestngXML_basic.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>org.example.Ex_4_TestngXML_basic@6bf0219d</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test2()'><b>Test2</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td><div><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.example.Ex_2_Testng_Annotations.Test2(Ex_2_Testng_Annotations.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2083999882", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2083999882'><pre>java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at org.testng.Assert.assertEquals(Assert.java:1274)
+	at org.example.Ex_2_Testng_Annotations.Test2(Ex_2_Testng_Annotations.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -356,33 +397,152 @@ in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test3()'><b>Test3</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td title='org.example.Ex_3_Testng_Listner.Test1()'><b>Test1</b><br>Test class: org.example.Ex_3_Testng_Listner</td>
 <td></td>
 <td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
+<td>org.example.Ex_3_Testng_Listner@3cc1435c</td></tr>
 <tr>
-<td title='org.example.Ex_8_Testng_logs.Test6()'><b>Test6</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-646910062" onClick='toggleBox("Output-646910062", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-646910062" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-646910062">
-Test6 Passes<br/>
-</div>
-</td>
+<td title='org.example.Ex_9_2_Parallel_Execution.test3()'><b>test3</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
 <td></td>
-<td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
 <tr>
 <td title='org.example.Ex_4_TestngXML_basic.Test1()'><b>Test1</b><br>Test class: org.example.Ex_4_TestngXML_basic</td>
 <td></td>
 <td>0</td>
-<td>org.example.Ex_4_TestngXML_basic@76ed1b7c</td></tr>
+<td>org.example.Ex_4_TestngXML_basic@6bf0219d</td></tr>
+<tr>
+<td title='org.example.Ex_9_2_Parallel_Execution.test4()'><b>test4</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
+<tr>
+<td title='org.example.Ex_7_Testng_Groups.finaltest()'><b>finaltest</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test6()'><b>test6</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.Ex_9_2_Parallel_Execution.test2()'><b>test2</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test5()'><b>Test5</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
+<tr>
+<td title='org.example.EX_11_DataProvider.test()'><b>test</b><br>Test class: org.example.EX_11_DataProvider<br>Parameters: [Ljava.lang.String;@4a83a74a</td>
+<td></td>
+<td>0</td>
+<td>org.example.EX_11_DataProvider@36b4fe2a</td></tr>
+<tr>
+<td title='org.example.Ex_7_Testng_Groups.Test2()'><b>Test2</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test3()'><b>test3</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test1()'><b>Test1</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
+<tr>
+<td title='org.example.Ex_6_1_Custom_Testng_Example.Test1()'><b>Test1</b><br>Test class: org.example.Ex_6_1_Custom_Testng_Example</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_6_1_Custom_Testng_Example@5f16132a</td></tr>
+<tr>
+<td title='org.example.Ex_7_Testng_Groups.Test1()'><b>Test1</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_9_2_Parallel_Execution.test1()'><b>test1</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
+<tr>
+<td title='org.example.Ex_8_Testng_logs.Test2()'><b>Test2</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
+<a href="#Output-1816725203" onClick='toggleBox("Output-1816725203", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1816725203" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1816725203">
+Test 2 Fails<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
+<tr>
+<td title='org.example.Ex_8_Testng_logs.Test5()'><b>Test5</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
+<a href="#Output-1862383967" onClick='toggleBox("Output-1862383967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1862383967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1862383967">
+Test5 Passes<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
+<tr>
+<td title='org.example.Ex_8_Testng_logs.Test3()'><b>Test3</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
+<a href="#Output-1328718765" onClick='toggleBox("Output-1328718765", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1328718765" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1328718765">
+Test3 Passes<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
+<tr>
+<td title='org.example.Ex_7_Testng_Groups.finalgrouptest()'><b>finalgrouptest</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_9_2_Parallel_Execution.test5()'><b>test5</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test1()'><b>test1</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.Ex_1_Testng_basic.Test1()'><b>Test1</b><br>Test class: org.example.Ex_1_Testng_basic</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_1_Testng_basic@574b560f</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test4()'><b>Test4</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
+<tr>
+<td title='org.example.EX_11_DataProvider.test()'><b>test</b><br>Test class: org.example.EX_11_DataProvider<br>Parameters: [Ljava.lang.String;@8519cb4</td>
+<td></td>
+<td>0</td>
+<td>org.example.EX_11_DataProvider@36b4fe2a</td></tr>
 <tr>
 <td title='org.example.Ex_8_Testng_logs.Test1()'><b>Test1</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-892555958" onClick='toggleBox("Output-892555958", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1892627171" onClick='toggleBox("Output-1892627171", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-892555958" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-892555958">
+<a href="#Output-1892627171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1892627171">
 Test 1 is running 1.<br/>
 Test 1 is running. 2<br/>
 Test 1 is running. 3<br/>
@@ -390,110 +550,81 @@ Test 1 is running. 3<br/>
 </td>
 <td></td>
 <td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
-<tr>
-<td title='org.example.Ex_8_Testng_logs.Test2()'><b>Test2</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-1076641925" onClick='toggleBox("Output-1076641925", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1076641925" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1076641925">
-Test 2 Fails<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
-<tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test1()'><b>Test1</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
-<tr>
-<td title='org.example.Ex_7_Testng_Groups.Test2()'><b>Test2</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_7_Testng_Groups@6236eb5f</td></tr>
-<tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test5()'><b>Test5</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
 <tr>
 <td title='org.example.Ex_7_Testng_Groups.Test3()'><b>Test3</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
 <td></td>
 <td>0</td>
-<td>org.example.Ex_7_Testng_Groups@6236eb5f</td></tr>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_8_Testng_logs.Test6()'><b>Test6</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
+<a href="#Output-1732238286" onClick='toggleBox("Output-1732238286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1732238286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1732238286">
+Test6 Passes<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test5()'><b>test5</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.Ex_7_Testng_Groups.Test4()'><b>Test4</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_7_Testng_Groups@7494f96a</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test4()'><b>test4</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.EX_11_DataProvider.test()'><b>test</b><br>Test class: org.example.EX_11_DataProvider<br>Parameters: [Ljava.lang.String;@7f485fda</td>
+<td></td>
+<td>0</td>
+<td>org.example.EX_11_DataProvider@36b4fe2a</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test6()'><b>Test6</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
+<tr>
+<td title='org.example.Ex_9_1_Parallel_Execution.test2()'><b>test2</b><br>Test class: org.example.Ex_9_1_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_1_Parallel_Execution@36d585c</td></tr>
+<tr>
+<td title='org.example.EX_11_DataProvider.test()'><b>test</b><br>Test class: org.example.EX_11_DataProvider<br>Parameters: [Ljava.lang.String;@196a42c3</td>
+<td></td>
+<td>0</td>
+<td>org.example.EX_11_DataProvider@36b4fe2a</td></tr>
+<tr>
+<td title='org.example.Ex_2_Testng_Annotations.Test3()'><b>Test3</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
+<td></td>
+<td>0</td>
+<td>org.example.Ex_2_Testng_Annotations@236e3f4e</td></tr>
+<tr>
+<td title='org.example.Ex_9_2_Parallel_Execution.test6()'><b>test6</b><br>Test class: org.example.Ex_9_2_Parallel_Execution</td>
+<td></td>
+<td>20</td>
+<td>org.example.Ex_9_2_Parallel_Execution@87a85e1</td></tr>
 <tr>
 <td title='org.example.Ex_8_Testng_logs.Test4()'><b>Test4</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-216856121" onClick='toggleBox("Output-216856121", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-116734858" onClick='toggleBox("Output-116734858", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-216856121" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-216856121">
+<a href="#Output-116734858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116734858">
 Test4 Passes<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
-<tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test6()'><b>Test6</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
-<tr>
-<td title='org.example.Ex_3_Testng_Listner.Test1()'><b>Test1</b><br>Test class: org.example.Ex_3_Testng_Listner</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_3_Testng_Listner@68567e20</td></tr>
-<tr>
-<td title='org.example.Ex_8_Testng_logs.Test5()'><b>Test5</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-2095486832" onClick='toggleBox("Output-2095486832", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2095486832" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2095486832">
-Test5 Passes<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
-<tr>
-<td title='org.example.Ex_6_1_Custom_Testng_Example.Test1()'><b>Test1</b><br>Test class: org.example.Ex_6_1_Custom_Testng_Example</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_6_1_Custom_Testng_Example@394a2528</td></tr>
-<tr>
-<td title='org.example.Ex_2_Testng_Annotations.Test4()'><b>Test4</b><br>Test class: org.example.Ex_2_Testng_Annotations</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_2_Testng_Annotations@17a7f733</td></tr>
-<tr>
-<td title='org.example.Ex_7_Testng_Groups.Test1()'><b>Test1</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_7_Testng_Groups@6236eb5f</td></tr>
-<tr>
-<td title='org.example.Ex_1_Testng_basic.Test1()'><b>Test1</b><br>Test class: org.example.Ex_1_Testng_basic</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_1_Testng_basic@6913c1fb</td></tr>
-<tr>
-<td title='org.example.Ex_7_Testng_Groups.Test4()'><b>Test4</b><br>Test class: org.example.Ex_7_Testng_Groups</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_7_Testng_Groups@6236eb5f</td></tr>
-<tr>
-<td title='org.example.Ex_8_Testng_logs.Test3()'><b>Test3</b><br>Test class: org.example.Ex_8_Testng_logs<br/>
-<a href="#Output-1896622931" onClick='toggleBox("Output-1896622931", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1896622931" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1896622931">
-Test3 Passes<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>org.example.Ex_8_Testng_logs@7c1e2a9e</td></tr>
+<td>org.example.Ex_8_Testng_logs@69fb6037</td></tr>
 </table><p>
 </body>
 </html>

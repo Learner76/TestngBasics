@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="19" failed="6" skipped="0">
+<testng-results ignored="0" total="44" passed="37" failed="7" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Before Method is running]]>
@@ -62,33 +62,36 @@
       <![CDATA[After Method is running]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-08T18:28:44 IST" name="Default Suite" finished-at="2023-07-08T18:28:45 IST" duration-ms="643">
+  <suite started-at="2023-07-09T08:42:21 IST" name="Default Suite" finished-at="2023-07-09T08:46:23 IST" duration-ms="241530">
     <groups>
       <group name="smoke">
-        <method signature="Ex_7_Testng_Groups.Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test1" class="org.example.Ex_7_Testng_Groups"/>
-        <method signature="Ex_7_Testng_Groups.Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test2" class="org.example.Ex_7_Testng_Groups"/>
-        <method signature="Ex_7_Testng_Groups.Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test3" class="org.example.Ex_7_Testng_Groups"/>
-        <method signature="Ex_7_Testng_Groups.Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test4" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test1" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test2" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test3" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test4" class="org.example.Ex_7_Testng_Groups"/>
       </group> <!-- smoke -->
+      <group name="group3">
+        <method signature="Ex_7_Testng_Groups.finalgrouptest()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="finalgrouptest" class="org.example.Ex_7_Testng_Groups"/>
+      </group> <!-- group3 -->
       <group name="group2">
-        <method signature="Ex_7_Testng_Groups.Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test3" class="org.example.Ex_7_Testng_Groups"/>
-        <method signature="Ex_7_Testng_Groups.Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test4" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test3" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test4" class="org.example.Ex_7_Testng_Groups"/>
       </group> <!-- group2 -->
       <group name="group1">
-        <method signature="Ex_7_Testng_Groups.Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test1" class="org.example.Ex_7_Testng_Groups"/>
-        <method signature="Ex_7_Testng_Groups.Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" name="Test2" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test1" class="org.example.Ex_7_Testng_Groups"/>
+        <method signature="Ex_7_Testng_Groups.Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" name="Test2" class="org.example.Ex_7_Testng_Groups"/>
       </group> <!-- group1 -->
     </groups>
-    <test started-at="2023-07-08T18:28:44 IST" name="TestNgLearnings" finished-at="2023-07-08T18:28:45 IST" duration-ms="643">
+    <test started-at="2023-07-09T08:42:21 IST" name="TestNgLearnings" finished-at="2023-07-09T08:46:23 IST" duration-ms="241530">
       <class name="org.example.Ex_8_Testng_logs">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test 1 is running 1.]]>
@@ -101,112 +104,112 @@
             </line>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test2" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test 2 Fails]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Method is running]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test3()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test3" finished-at="2023-07-08T18:28:45 IST" duration-ms="4" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test3" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test3 Passes]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Method is running]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AfterSuit -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test4()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test4" finished-at="2023-07-08T18:28:45 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test4()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test4" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test4 Passes]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test5()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test5" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method signature="Test5()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test5" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test5 Passes]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test5 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method is running]]>
             </line>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test6()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="Test6" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method signature="Test6()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="Test6" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test6 Passes]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test6 -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@7c1e2a9e]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_8_Testng_logs@69fb6037]" started-at="2023-07-09T08:42:22 IST" name="AfterSuit" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method is running]]>
@@ -215,7 +218,7 @@
         </test-method> <!-- AfterSuit -->
       </class> <!-- org.example.Ex_8_Testng_logs -->
       <class name="org.example.Ex_5_Parameterized_Testng">
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:org.example.Ex_5_Parameterized_Testng@11fc564b]" started-at="2023-07-08T18:28:45 IST" name="test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="FAIL">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:org.example.Ex_5_Parameterized_Testng@dd0c991]" started-at="2023-07-09T08:42:22 IST" name="test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -259,24 +262,69 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- org.example.Ex_5_Parameterized_Testng -->
+      <class name="org.example.Ex_10_Testngxml_Parameters">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:org.example.Ex_10_Testngxml_Parameters@63070bab]" started-at="2023-07-09T08:42:21 IST" name="test" finished-at="2023-07-09T08:42:21 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'env' is required by @Test on method test but has not been marked @Optional or defined
+in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'env' is required by @Test on method test but has not been marked @Optional or defined
+in C:\Users\Pravesh\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.example.Ex_10_Testngxml_Parameters -->
       <class name="org.example.Ex_3_Testng_Listner">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="Test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="8" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="Test2" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -323,47 +371,97 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@68567e20]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_3_Testng_Listner@3cc1435c]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
       </class> <!-- org.example.Ex_3_Testng_Listner -->
+      <class name="org.example.EX_11_DataProvider">
+        <test-method signature="test([Ljava.lang.String;)[pri:0, instance:org.example.EX_11_DataProvider@36b4fe2a]" started-at="2023-07-09T08:42:21 IST" name="test" data-provider="Testdata" finished-at="2023-07-09T08:42:21 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@196a42c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test([Ljava.lang.String;)[pri:0, instance:org.example.EX_11_DataProvider@36b4fe2a]" started-at="2023-07-09T08:42:21 IST" name="test" data-provider="Testdata" finished-at="2023-07-09T08:42:21 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4a83a74a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test([Ljava.lang.String;)[pri:0, instance:org.example.EX_11_DataProvider@36b4fe2a]" started-at="2023-07-09T08:42:21 IST" name="test" data-provider="Testdata" finished-at="2023-07-09T08:42:21 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7f485fda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test([Ljava.lang.String;)[pri:0, instance:org.example.EX_11_DataProvider@36b4fe2a]" started-at="2023-07-09T08:42:21 IST" name="test" data-provider="Testdata" finished-at="2023-07-09T08:42:21 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@8519cb4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.example.EX_11_DataProvider -->
       <class name="org.example.Ex_7_Testng_Groups">
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" started-at="2023-07-08T18:28:45 IST" name="Test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="8" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:42:21 IST" name="Test1" finished-at="2023-07-09T08:42:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" started-at="2023-07-08T18:28:45 IST" name="Test2" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:42:21 IST" name="Test2" finished-at="2023-07-09T08:42:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method signature="Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" started-at="2023-07-08T18:28:45 IST" name="Test3" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:42:21 IST" name="Test3" finished-at="2023-07-09T08:42:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method signature="Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@6236eb5f]" started-at="2023-07-08T18:28:45 IST" name="Test4" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test4()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:42:21 IST" name="Test4" finished-at="2023-07-09T08:42:21 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
+        <test-method signature="finalgrouptest()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:46:23 IST" name="finalgrouptest" depends-on-groups="group2" finished-at="2023-07-09T08:46:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalgrouptest -->
+        <test-method signature="finaltest()[pri:0, instance:org.example.Ex_7_Testng_Groups@7494f96a]" started-at="2023-07-09T08:46:23 IST" name="finaltest" finished-at="2023-07-09T08:46:23 IST" depends-on-methods="org.example.Ex_7_Testng_Groups.Test1, org.example.Ex_7_Testng_Groups.Test2" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finaltest -->
       </class> <!-- org.example.Ex_7_Testng_Groups -->
       <class name="org.example.Ex_4_TestngXML_basic">
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="Test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="Test2" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -410,29 +508,33 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@76ed1b7c]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_4_TestngXML_basic@6bf0219d]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
       </class> <!-- org.example.Ex_4_TestngXML_basic -->
       <class name="org.example.Ex_6_1_Custom_Testng_Example">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="Test1" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="Test2" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -479,41 +581,41 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@394a2528]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_6_1_Custom_Testng_Example@5f16132a]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
       </class> <!-- org.example.Ex_6_1_Custom_Testng_Example -->
       <class name="org.example.Ex_2_Testng_Annotations">
-        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeSuit" finished-at="2023-07-08T18:28:44 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:21 IST" name="BeforeSuit" finished-at="2023-07-09T08:42:21 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuit -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeTest" finished-at="2023-07-08T18:28:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:21 IST" name="BeforeTest" finished-at="2023-07-09T08:42:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeClass" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeClass" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="Test1" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="AfterMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="Test2" finished-at="2023-07-08T18:28:44 IST" duration-ms="6" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="4" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -560,89 +662,141 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="AfterMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test3()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="Test3" finished-at="2023-07-08T18:28:44 IST" duration-ms="5" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test3" finished-at="2023-07-09T08:42:22 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="AfterMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test4()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="Test4" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method signature="Test4()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test4" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test4 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test5()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="Test5" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test5()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test5" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test5 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test6()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="Test6" finished-at="2023-07-08T18:28:45 IST" duration-ms="2" status="PASS">
+        <test-method signature="Test6()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="Test6" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test6 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterMethod" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterClass" finished-at="2023-07-08T18:28:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:42:22 IST" name="AfterClass" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterTest" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:46:23 IST" name="AfterTest" finished-at="2023-07-09T08:46:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_2_Testng_Annotations@17a7f733]" started-at="2023-07-08T18:28:45 IST" name="AfterSuit" finished-at="2023-07-08T18:28:45 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterSuit()[pri:0, instance:org.example.Ex_2_Testng_Annotations@236e3f4e]" started-at="2023-07-09T08:46:23 IST" name="AfterSuit" finished-at="2023-07-09T08:46:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuit -->
       </class> <!-- org.example.Ex_2_Testng_Annotations -->
+      <class name="org.example.Ex_9_1_Parallel_Execution">
+        <test-method signature="test1()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:42:22 IST" name="test1" finished-at="2023-07-09T08:42:42 IST" duration-ms="20070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:42:42 IST" name="test2" finished-at="2023-07-09T08:43:02 IST" duration-ms="20077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:43:02 IST" name="test3" finished-at="2023-07-09T08:43:22 IST" duration-ms="20069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:43:22 IST" name="test4" finished-at="2023-07-09T08:43:42 IST" duration-ms="20052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:43:42 IST" name="test5" finished-at="2023-07-09T08:44:02 IST" duration-ms="20067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:org.example.Ex_9_1_Parallel_Execution@36d585c]" started-at="2023-07-09T08:44:02 IST" name="test6" finished-at="2023-07-09T08:44:22 IST" duration-ms="20070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- org.example.Ex_9_1_Parallel_Execution -->
+      <class name="org.example.Ex_9_2_Parallel_Execution">
+        <test-method signature="test1()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:44:22 IST" name="test1" finished-at="2023-07-09T08:44:42 IST" duration-ms="20058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:44:42 IST" name="test2" finished-at="2023-07-09T08:45:02 IST" duration-ms="20087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:45:02 IST" name="test3" finished-at="2023-07-09T08:45:22 IST" duration-ms="20054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:45:22 IST" name="test4" finished-at="2023-07-09T08:45:43 IST" duration-ms="20065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:45:43 IST" name="test5" finished-at="2023-07-09T08:46:03 IST" duration-ms="20170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:org.example.Ex_9_2_Parallel_Execution@87a85e1]" started-at="2023-07-09T08:46:03 IST" name="test6" finished-at="2023-07-09T08:46:23 IST" duration-ms="20065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- org.example.Ex_9_2_Parallel_Execution -->
       <class name="org.example.Ex_1_Testng_basic">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test1()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="Test1" finished-at="2023-07-08T18:28:44 IST" duration-ms="5" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="Test1" finished-at="2023-07-09T08:42:22 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="AfterMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="BeforeMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="BeforeMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Test2()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="Test2" finished-at="2023-07-08T18:28:44 IST" duration-ms="15" status="FAIL">
+        <test-method signature="Test2()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="Test2" finished-at="2023-07-09T08:42:22 IST" duration-ms="87" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -689,7 +843,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@6913c1fb]" started-at="2023-07-08T18:28:44 IST" name="AfterMethod" finished-at="2023-07-08T18:28:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:org.example.Ex_1_Testng_basic@574b560f]" started-at="2023-07-09T08:42:22 IST" name="AfterMethod" finished-at="2023-07-09T08:42:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->

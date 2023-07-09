@@ -28,4 +28,46 @@ Suite->Test -->Classes ->Class order for basic xml.
     </test>
 </suite>
 
+Regarding ---------------------------------Parallel-----------------------------------------
+TestNG allows running the tests in parallel by setting the “parallel” attribute in the “<suite>” tag
+respectively to “tests”, “methods”, “classes”, “instances”.
+As per the setting provided to run the tests, it will start executing the tests in
+separate threads.
+
+Regarding----------------------------------Depedency injection----------------------------------------
+https://www.tutorialspoint.com/how-to-retrieve-test-method-description-in-testng-before-and-after-execution
+
+TestNG supports native dependency injection. It allows to declare additional parameters
+in methods. At runtime, TestNG automatically fills these parameters with the correct
+values. Following is a set of native dependencies in TestNG −
+
+ITestContext
+XmlTest
+Method
+ITestResult
+
+i.e you can declare before method like this. See Method parameter here. so Testng exeuction engine will create
+method object and pass it while calling set up method.
+  @BeforeMethod
+        public void setup(Method method){}
+
+
+Details :
+Annotation	ITestContext	XmlTest	Method	ITestResult
+BeforeSuite	Yes	No	No	No
+BeforeTest	Yes	Yes	No	No
+BeforeGroups	Yes	Yes	No	No
+BeforeClass	Yes	Yes	No	No
+BeforeMethod	Yes	Yes	Yes	Yes --------------all yes.
+Test	Yes	No	No	No
+AfterMethod	Yes	Yes	Yes	Yes  -----------------all yes.
+AfterClass	Yes	Yes	No	No
+AfterGroups	Yes	Yes	No	No
+AfterTest	Yes	Yes	No	No
+AfterSuite	Yes	No	No	No
+
+
+
+
+
 --------Extent Reports-------------

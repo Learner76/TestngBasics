@@ -1,0 +1,9 @@
+<suite name ="suite">
+    <test name ="test">
+        <classes>
+            <class name="org.example.Ex_6_3_CustomListener_TestngXML_Example">
+
+            </class>
+        </classes>
+    </test>
+</suite>
